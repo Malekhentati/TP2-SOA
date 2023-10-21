@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT BanqueService (conversion, comptes)>
+<!ELEMENT conversion (montant)>
+<!ELEMENT montant (#PCDATA)>
+<!ELEMENT comptes (compte*)>
+<!ELEMENT compte (code, solde, dateCreation)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT solde (#PCDATA)>
+<!ELEMENT dateCreation (#PCDATA)>
